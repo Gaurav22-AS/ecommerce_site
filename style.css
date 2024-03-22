@@ -123,13 +123,15 @@ body{
     font-weight: 700;
     font-size: 15px;
     transition-delay: 10ms;
+    
 }
 #hero button:hover{
     box-shadow: 0px 0px 5px rgb(95, 111, 116);
     border-radius: 5px;
     border: 1px rgb(160, 217, 217);
-    background-image: linear-gradient(rgb(107, 112, 112),rgb(116, 165, 165),rgb(47, 92, 92));
-    color: white;
+    background-image: radial-gradient(rgb(224, 226, 239),rgb(196, 242, 242),rgb(5, 60, 60));
+    color: rgb(35, 1, 1);
+    box-shadow: #222;
 }
 
 #feature{
@@ -182,4 +184,27 @@ body{
 
 #product1{
     text-align: center;
+}
+
+#product1 .pro{
+    width: 23%;
+    min-width: 250px;
+    padding: 10px 12px;
+    border: 1px solid #cce7d0;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s;
+}
+
+#product1 .pro img{
+    width: 100%;
+    border-radius: 20px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 10px 0;
+}
+#product1 .pro .des span{
+    color: #606063;
+    font-size: 12px;
 }
